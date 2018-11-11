@@ -1,0 +1,1705 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mewsick</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-dark">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+  <nav class="navbar navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="index.html">Mewsick</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+   <ul class="navbar-nav mr-auto">
+     <li class="nav-item active">
+       <a class="nav-link" href="catalog.html">Catalog <span class="sr-only">(current)</span></a>
+     </li>
+     <li class="nav-item active">
+       <a class="nav-link" href="explore.html">Explore <span class="sr-only">(current)</span></a>
+     </li>
+     <li class="nav-item dropdown">
+       <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         Account
+       </a>
+       <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+         <a class="dropdown-item" href="signup.html">Sign Up</a>
+         <a class="dropdown-item" href="signin.html">Sign in</a>
+       </div>
+     </li>
+     <li class="nav-item active">
+       <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+     </li>
+  </ul>
+  </div>
+</nav>
+<div class="card-deck">
+    <div class="card shadow">
+      <img class="card-img-top" src="img/Astroworld.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Astroworld</h5>
+        <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#Astroworld">
+          View Album
+        </button>
+        <div class="modal fade" id="Astroworld" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <img src="img/Astroworld.jpg" class="img-thumbnail">
+                <h5 class="modal-title" id="exampleModalLongTitle">Astroworld<br></h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <h6>Artist: Travis Scott</h6>
+                <table class="table table-dark">
+                  <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">TITLE</th>
+                      <th scope="col">TIME</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>STARGAZING</td>
+                      <td>4:31</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>CAROUSEL</td>
+                      <td>3:00</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td>SICKO MODE</td>
+                      <td>5:13</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">4</th>
+                      <td>R.I.P. SCREW</td>
+                      <td>3:06</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">5</th>
+                      <td>STOP TRYING TO BE GOD</td>
+                      <td>5:38</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">6</th>
+                      <td>NO BYSTANDERS</td>
+                      <td>3:38</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">7</th>
+                      <td>SKELETONS</td>
+                      <td>2:26</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">8</th>
+                      <td>WAKE UP</td>
+                      <td>3:52</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">9</th>
+                      <td>5% TINT</td>
+                      <td>3:16</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">10</th>
+                      <td>NC-17</td>
+                      <td>2:37</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">11</th>
+                      <td>ASTROTHUNDER</td>
+                      <td>2:23</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">12</th>
+                      <td>YOSEMITE</td>
+                      <td>2:30</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">13</th>
+                      <td>CAN'T SAY</td>
+                      <td>3:18</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">14</th>
+                      <td>WHO? WHAT?</td>
+                      <td>2:57</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">15</th>
+                      <td>BUTTERFLY EFFECT</td>
+                      <td>3:11</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">16</th>
+                      <td>HOUSTONFORNICATION</td>
+                      <td>3:38</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">17</th>
+                      <td>COFFEE BEAN</td>
+                      <td>3:29</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" href="payment.html" onclick="goPayment();">Buy Album</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card shadow">
+      <img class="card-img-top" src="img/Kamikaze.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Kamikaze</h5>
+        <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#Kamikaze">
+          View Album
+        </button>
+        <div class="modal fade" id="Kamikaze" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <img src="img/Kamikaze.jpg" class="img-thumbnail">
+                <h5 class="modal-title" id="exampleModalLongTitle">Kamikaze</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <h6>Artist: Eminem</h6>
+                <table class="table table-dark">
+                  <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">TITLE</th>
+                      <th scope="col">TIME</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>The Ringer</td>
+                      <td>5:38</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>Greatest</td>
+                      <td>3:47</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td>Lucky You (feat. Joyner Lucas)</td>
+                      <td>4:05</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">4</th>
+                      <td>Paul-Skit</td>
+                      <td>0:36</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">5</th>
+                      <td>Normal</td>
+                      <td>3:42</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">6</th>
+                      <td>Em Calls Paul-Skit</td>
+                      <td>0:49</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">7</th>
+                      <td>Stepping Stone</td>
+                      <td>5:10</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">8</th>
+                      <td>Not Alike (feat.Royce Da 5'9)</td>
+                      <td>4:48</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">9</th>
+                      <td>Kamikaze</td>
+                      <td>3:36</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">10</th>
+                      <td>Fall</td>
+                      <td>4:22</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">11</th>
+                      <td>Nice Guy (with Jessie Reyez)</td>
+                      <td>2:31</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">12</th>
+                      <td>Good Guy (feat. Jessie Reyez)</td>
+                      <td>2:22</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">13</th>
+                      <td>Venom-Music From The Motion Picture</td>
+                      <td>4:30</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" href="payment.html" onclick="goPayment();">Buy Album</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card shadow">
+      <img class="card-img-top" src="img/Promises.png" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Promises</h5>
+        <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#Promises">
+          View Album
+        </button>
+        <div class="modal fade" id="Promises" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <img src="img/Promises.png" class="img-thumbnail">
+                <h5 class="modal-title" id="exampleModalLongTitle">Promises</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <h6>Artist: Calvin Harris</h6>
+                <table class="table table-dark">
+                  <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">TITLE</th>
+                      <th scope="col">TIME</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>Promises (with Sam Smith)</td>
+                      <td>3:33</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" href="payment.html" onclick="goPayment();">Buy Album</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card shadow">
+      <img class="card-img-top" src="img/GAGR.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Goodbye & good riddance</h5>
+        <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#Goodbye">
+          View Album
+        </button>
+        <div class="modal fade" id="Goodbye" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <img src="img/GAGR.jpg" class="img-thumbnail">
+                <h5 class="modal-title" id="exampleModalLongTitle">Goodbye & good riddance</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <h6>Artist: Juice WRLD</h6>
+                <table class="table table-dark">
+                  <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">TITLE</th>
+                      <th scope="col">TIME</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>Intro</td>
+                      <td>1:15</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>All Girls Are The Same</td>
+                      <td>2:46</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td>Lucid Dreams</td>
+                      <td>4:00</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">4</th>
+                      <td>Lean Wit Me</td>
+                      <td>2:56</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">5</th>
+                      <td>Wasted (feat. Lil Uzi Vert)</td>
+                      <td>4:18</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">6</th>
+                      <td>I'm Still</td>
+                      <td>3:13</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">7</th>
+                      <td>Betrayal-Skit</td>
+                      <td>1:04</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">8</th>
+                      <td>Candles</td>
+                      <td>3:04</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">9</th>
+                      <td>Scared Of Love</td>
+                      <td>2:51</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">10</th>
+                      <td>Used To</td>
+                      <td>2:56</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">11</th>
+                      <td>Karma-Skit</td>
+                      <td>1:15</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">12</th>
+                      <td>Hurt Me</td>
+                      <td>2:02</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">13</th>
+                      <td>Black & White</td>
+                      <td>3:07</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">14</th>
+                      <td>Long Gone</td>
+                      <td>3:07</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">15</th>
+                      <td>End Of The Road</td>
+                      <td>2:43</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">16</th>
+                      <td>I'll Be Fine</td>
+                      <td>4:04</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" href="payment.html" onclick="goPayment();">Buy Album</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card shadow">
+      <img class="card-img-top" src="img/Electricity.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Electricity</h5>
+        <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#Electricity">
+          View Album
+        </button>
+        <div class="modal fade" id="Electricity" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <img src="img/Electricity.jpg" class="img-thumbnail">
+                <h5 class="modal-title" id="exampleModalLongTitle">Electricity</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <h6>Artist: Silk City</h6>
+                <table class="table table-dark">
+                  <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">TITLE</th>
+                      <th scope="col">TIME</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>Electricity (with Dua Lipa)</td>
+                      <td>3:58</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" href="payment.html" onclick="goPayment();">Buy Album</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+<div class="card-deck">
+    <div class="card shadow">
+      <img class="card-img-top" src="img/Scorpion.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Scorpion</h5>
+        <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#Scorpion">
+          View Album
+        </button>
+        <div class="modal fade" id="Scorpion" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <img src="img/Scorpion.jpg" class="img-thumbnail">
+                <h5 class="modal-title" id="exampleModalLongTitle">Scorpion</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <h6>Artist: Drake</h6>
+                <table class="table table-dark">
+                  <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">TITLE</th>
+                      <th scope="col">TIME</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>Survival</td>
+                      <td>2:16</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>Nonstop</td>
+                      <td>3:59</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td>Elevate</td>
+                      <td>3:05</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">4</th>
+                      <td>Emotionless</td>
+                      <td>5:02</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">5</th>
+                      <td>God's Plan</td>
+                      <td>3:19</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">6</th>
+                      <td>I'm Upset</td>
+                      <td>3:34</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">7</th>
+                      <td>8 Out Of 10</td>
+                      <td>3:16</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">8</th>
+                      <td>Mob Ties</td>
+                      <td>3:25</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">9</th>
+                      <td>Can't Take A Joke</td>
+                      <td>2:44</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">10</th>
+                      <td>Sandra's Rose</td>
+                      <td>3:36</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">11</th>
+                      <td>Talk Up (feat. Jay-Z)</td>
+                      <td>3:43</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">12</th>
+                      <td>Is There More</td>
+                      <td>3:47</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <table class="table table-dark">
+                  <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">TITLE</th>
+                      <th scope="col">TIME</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>Peak</td>
+                      <td>3:26</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>Summer Games</td>
+                      <td>4:08</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td>Jaded</td>
+                      <td>4:22</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">4</th>
+                      <td>Nice For What</td>
+                      <td>3:31</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">5</th>
+                      <td>Finesse</td>
+                      <td>3:02</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">6</th>
+                      <td>Ratchet Happy Birthday</td>
+                      <td>3:27</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">7</th>
+                      <td>That's How You Feel</td>
+                      <td>2:38</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">8</th>
+                      <td>Blue Tint</td>
+                      <td>2:43</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">9</th>
+                      <td>In My Feelings</td>
+                      <td>3:38</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">10</th>
+                      <td>Don't Matter To Me (with Michael Jackson)</td>
+                      <td>4:06</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">11</th>
+                      <td>After Dark (feat. Static Major, Ty Dolla $ign)</td>
+                      <td>4:50</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">12</th>
+                      <td>Final Fantasy</td>
+                      <td>3:40</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">13</th>
+                      <td>March 14</td>
+                      <td>5:10</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" href="payment.html" onclick="goPayment();">Buy Album</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card shadow">
+      <img class="card-img-top" src="img/BAB.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Beerbongs & Bentleys</h5>
+        <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#Beerbongs">
+          View Album
+        </button>
+        <div class="modal fade" id="Beerbongs" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <img src="img/BAB.jpg" class="img-thumbnail">
+                <h5 class="modal-title" id="exampleModalLongTitle">Beerbongs & Bentleys</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <h6>Artist: Post Malone</h6>
+                <table class="table table-dark">
+                  <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">TITLE</th>
+                      <th scope="col">TIME</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>Paranoid</td>
+                      <td>3:42</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>Spoil My Night (feat. Swae Lee)</td>
+                      <td>3:15</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td>Rich & Sad</td>
+                      <td>3:26</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">4</th>
+                      <td>Zack and Codeine</td>
+                      <td>3:24</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">5</th>
+                      <td>Takin' Shots</td>
+                      <td>3:37</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">6</th>
+                      <td>rockstar (feat. 21 Savage)</td>
+                      <td>3:38</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">7</th>
+                      <td>Over Now</td>
+                      <td>4:07</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">8</th>
+                      <td>Psycho (feat. Ty Dolla $ign)</td>
+                      <td>3:41</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">9</th>
+                      <td>Better Now</td>
+                      <td>3:51</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">10</th>
+                      <td>Ball For Me (feat. Nicki Minaj)</td>
+                      <td>3:26</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">11</th>
+                      <td>Otherside</td>
+                      <td>3:48</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">12</th>
+                      <td>Stay</td>
+                      <td>3:24</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">13</th>
+                      <td>Blame It On Me</td>
+                      <td>4:22</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">14</th>
+                      <td>Same Bitches (feat. G-Eazy & YG)</td>
+                      <td>3:32</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">15</th>
+                      <td>Jonestown (Interlude)</td>
+                      <td>1:52</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">16</th>
+                      <td>92 Explorer</td>
+                      <td>3:31</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">17</th>
+                      <td>Candy Paint</td>
+                      <td>3:48</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">18</th>
+                      <td>Sugar Wraith</td>
+                      <td>3:48</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" href="payment.html" onclick="goPayment();">Buy Album</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card shadow">
+      <img class="card-img-top" src="img/x.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">?</h5>
+        <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#x">
+          View Album
+        </button>
+        <div class="modal fade" id="x" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <img src="img/x.jpg" class="img-thumbnail">
+                <h5 class="modal-title" id="exampleModalLongTitle">?</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <h6>Artist: XXXTENTACION</h6>
+                <table class="table table-dark">
+                  <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">TITLE</th>
+                      <th scope="col">TIME</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>Introduction (Instructions)</td>
+                      <td>1:57</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>ALONE, PART 3</td>
+                      <td>1:50</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td>Moonlight</td>
+                      <td>2:15</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">4</th>
+                      <td>SAD!</td>
+                      <td>2:47</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">5</th>
+                      <td>the remedy for a broken heart</td>
+                      <td>2:40</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">6</th>
+                      <td>Floor 555</td>
+                      <td>1:33</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">7</th>
+                      <td>NUMB</td>
+                      <td>3:06</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">8</th>
+                      <td>Infinity (888) - feat. Joey Bada$$</td>
+                      <td>2:57</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">9</th>
+                      <td>going down!</td>
+                      <td>1:55</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">10</th>
+                      <td>Pain = BESTFRIEND - feat. Travis Barker</td>
+                      <td>1:42</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">11</th>
+                      <td>$$$ - with Matt Ox</td>
+                      <td>2:10</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">12</th>
+                      <td>love yourself (interlude)</td>
+                      <td>0:48</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">13</th>
+                      <td>SMASH! - feat. PnB Rock</td>
+                      <td>1:50</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">14</th>
+                      <td>I don't even speak spanish lol - feat. Rio Santana, Carlos Andrez, Judah</td>
+                      <td>3:12</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">15</th>
+                      <td>changes</td>
+                      <td>2:02</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">16</th>
+                      <td>Hope</td>
+                      <td>1:51</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">17</th>
+                      <td>schizophrenia</td>
+                      <td>1:20</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">18</th>
+                      <td>before I close my eyes</td>
+                      <td>1:40</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" href="payment.html" onclick="goPayment();">Buy Album</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card shadow">
+      <img class="card-img-top" src="img/ComedownMachine.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Comedown Machine</h5>
+        <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#ComedownMachine">
+          View Album
+        </button>
+        <div class="modal fade" id="ComedownMachine" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <img src="img/ComedownMachine.jpg" class="img-thumbnail">
+                <h5 class="modal-title" id="exampleModalLongTitle">Wiped Out</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <h6>Artist: The Strokes</h6>
+                <table class="table table-dark">
+                  <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">TITLE</th>
+                      <th scope="col">TIME</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>Tap Out</td>
+                      <td>3:42</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>All The Time</td>
+                      <td>3:01</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td>One Way Trigger</td>
+                      <td>4:02</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">4</th>
+                      <td>Welcome To Japan</td>
+                      <td>3:51</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">5</th>
+                      <td>80's Comedown Machine</td>
+                      <td>4:59</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">6</th>
+                      <td>50/50</td>
+                      <td>2:43</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">7</th>
+                      <td>Slow Animals</td>
+                      <td>4:21</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">8</th>
+                      <td>Partners In Crime</td>
+                      <td>3:22</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">9</th>
+                      <td>Chances</td>
+                      <td>3:37</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">10</th>
+                      <td>Happy Ending</td>
+                      <td>2:52</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">11</th>
+                      <td>Call It Fate, Call It Karma</td>
+                      <td>3:25</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" href="payment.html" onclick="goPayment();">Buy Album</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card shadow">
+      <img class="card-img-top" src="img/MonumentsAndMelodies.png" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Monuments And Melodies</h5>
+        <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#MonumentsAndMelodies">
+          View Album
+        </button>
+        <div class="modal fade" id="MonumentsAndMelodies" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <img src="img/MonumentsAndMelodies.png" class="img-thumbnail">
+                <h5 class="modal-title" id="exampleModalLongTitle">Monuments And Melodies</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <h6>Artist: The Strokes</h6>
+                <table class="table table-dark">
+                  <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">TITLE</th>
+                      <th scope="col">TIME</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>Black Heart Inertia</td>
+                      <td>4:53</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>Drive</td>
+                      <td>3:53</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td>Megalomaniac</td>
+                      <td>4:55</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">4</th>
+                      <td>Anna Molly</td>
+                      <td>3:46</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">5</th>
+                      <td>Love Hurts</td>
+                      <td>3:57/td>
+                    </tr>
+                    <tr>
+                      <th scope="row">6</th>
+                      <td>Wish You Were Here</td>
+                      <td>3:33</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">7</th>
+                      <td>Warning</td>
+                      <td>4:39</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">8</th>
+                      <td>Stellar</td>
+                      <td>3:20</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">9</th>
+                      <td>Talk Shows on Mute</td>
+                      <td>3:49</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">10</th>
+                      <td>Pardon Me</td>
+                      <td>3:44</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">11</th>
+                      <td>Dig</td>
+                      <td>4:17</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">12</th>
+                      <td>Oil and Water</td>
+                      <td>3:50</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">13</th>
+                      <td>Are you in?</td>
+                      <td>4:24</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">14</th>
+                      <td>Nice to Know You</td>
+                      <td>4:44</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">15</th>
+                      <td>Midnight Swim</td>
+                      <td>3:15</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <table class="table table-dark">
+                  <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">TITLE</th>
+                      <th scope="col">TIME</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>Neither of Us Can See</td>
+                      <td>4:04</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>Look Alive</td>
+                      <td>4:21</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td>While All The Vultures Feed</td>
+                      <td>3:53</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">4</th>
+                      <td>Pantomine</td>
+                      <td>4:39</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">5</th>
+                      <td>Anything</td>
+                      <td>3:33</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">6</th>
+                      <td>Punch Drunk</td>
+                      <td>5:13</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">7</th>
+                      <td>Admiration</td>
+                      <td>5:13</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">8</th>
+                      <td>Martini</td>
+                      <td>4:09</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">9</th>
+                      <td>A Certain Shade Of Green - Acoustic Version</td>
+                      <td>3:36</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">10</th>
+                      <td>Monuments and Melodies</td>
+                      <td>5:04</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">11</th>
+                      <td>Let's Go Crazy</td>
+                      <td>4:29</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" href="payment.html" onclick="goPayment();">Buy Album</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+<div class="card-deck">
+    <div class="card shadow">
+      <img class="card-img-top" src="img/Audioslave.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Audioslave</h5>
+        <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#Audioslave">
+          View Album
+        </button>
+        <div class="modal fade" id="Audioslave" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <img src="img/Audioslave.jpg" class="img-thumbnail">
+                <h5 class="modal-title" id="exampleModalLongTitle">Audioslave</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <h6>Artist: Audioslave</h6>
+                <table class="table table-dark">
+                  <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">TITLE</th>
+                      <th scope="col">TIME</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>Cochise</td>
+                      <td>3:42</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>Show Me How to Live</td>
+                      <td>4:38</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td>Gasoline</td>
+                      <td>4:39</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">4</th>
+                      <td>What You Are</td>
+                      <td>4:09</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">5</th>
+                      <td>Like a Stone</td>
+                      <td>4:54</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">6</th>
+                      <td>Set it Off</td>
+                      <td>4:23</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">7</th>
+                      <td>Shadow on the Sun</td>
+                      <td>5:43</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">8</th>
+                      <td>I Am the Highway</td>
+                      <td>5:35</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">9</th>
+                      <td>Exploder</td>
+                      <td>3:26</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">10</th>
+                      <td>Hypnotize</td>
+                      <td>3:27</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">11</th>
+                      <td>Bring Em Back Alive</td>
+                      <td>5:29</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">12</th>
+                      <td>Light My Way</td>
+                      <td>5:03</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">13</th>
+                      <td>Getaway Car</td>
+                      <td>4:59</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">14</th>
+                      <td>The Last Remaining Light</td>
+                      <td>5:17</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" href="payment.html" onclick="goPayment();">Buy Album</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card shadow">
+      <img class="card-img-top" src="img/WipedOut.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Wiped Out!</h5>
+        <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#WipedOut">
+          View Album
+        </button>
+        <div class="modal fade" id="WipedOut" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <img src="img/WipedOut.jpg" class="img-thumbnail">
+                <h5 class="modal-title" id="exampleModalLongTitle">Wiped Out</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <h6>Artist: The Neighbourhood</h6>
+                <table class="table table-dark">
+                  <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">TITLE</th>
+                      <th scope="col">TIME</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>A Moment of Silence</td>
+                      <td>0:30</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>Prey</td>
+                      <td>4:43</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td>Cry Baby</td>
+                      <td>3:55</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">4</th>
+                      <td>Wiped Out!</td>
+                      <td>6:13</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">5</th>
+                      <td>The Beach</td>
+                      <td>4:15</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">6</th>
+                      <td>Daddy Issues</td>
+                      <td>4:20</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">7</th>
+                      <td>Baby Came Home 2/ Valentines</td>
+                      <td>6:30</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">8</th>
+                      <td>Greetings from Califournia</td>
+                      <td>4:04</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">9</th>
+                      <td>Ferrari</td>
+                      <td>3:04</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">10</th>
+                      <td>Single</td>
+                      <td>4:22</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">11</th>
+                      <td>R.I.P. 2 My Youth</td>
+                      <td>3:25</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" href="payment.html" onclick="goPayment();">Buy Album</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card shadow">
+      <img class="card-img-top" src="img/KidsSeeGhosts.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Kids see ghosts</h5>
+        <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#KidsSeeGhosts">
+          View Album
+        </button>
+        <div class="modal fade" id="KidsSeeGhosts" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <img src="img/KidsSeeGhosts.jpg" class="img-thumbnail">
+                <h5 class="modal-title" id="exampleModalLongTitle">Kids see ghosts</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <h6>Artist: Kanye West</h6>
+                <table class="table table-dark">
+                  <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">TITLE</th>
+                      <th scope="col">TIME</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>Feel The Love (feat. Pusha T)</td>
+                      <td>2:45</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>Fire</td>
+                      <td>2:21</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td>1th Dimension (feat. Louis Prima)</td>
+                      <td>2:33</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">4</th>
+                      <td>Freeee (Ghost Town Pt.2) (feat. Ty Dolla $ign)</td>
+                      <td>3:27</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">5</th>
+                      <td>Reborn</td>
+                      <td>5:25</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">6</th>
+                      <td>Kids See Ghosts (feat. Yasilin Bey)</td>
+                      <td>4:05</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">7</th>
+                      <td>Cudi Montage</td>
+                      <td>3:17</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" href="payment.html" onclick="goPayment();">Buy Album</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card shadow">
+      <img class="card-img-top" src="img/InTongues.png" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">In Tongues</h5>
+        <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#InTongues">
+          View Album
+        </button>
+        <div class="modal fade" id="InTongues" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <img src="img/InTongues.png" class="img-thumbnail">
+                <h5 class="modal-title" id="exampleModalLongTitle">In Tongues</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <h6>Artist: Joji</h6>
+                <table class="table table-dark">
+                  <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">TITLE</th>
+                      <th scope="col">TIME</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>Will He</td>
+                      <td>3:22</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>Pills</td>
+                      <td>3:07</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td>Demons</td>
+                      <td>2:57</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">4</th>
+                      <td>Window</td>
+                      <td>2:32</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">5</th>
+                      <td>Bitter Fuck</td>
+                      <td>2:34</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">6</th>
+                      <td>worldstar money (interlude)</td>
+                      <td>2:06</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">7</th>
+                      <td>Plastic Taste</td>
+                      <td>2:00</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">8</th>
+                      <td>I Don't Wanna Waste My Time</td>
+                      <td>2:44</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">9</th>
+                      <td>Will He (Medasin Remix)</td>
+                      <td>3:42</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">10</th>
+                      <td>Will He (Ryan Hemsworth Remix)</td>
+                      <td>2:48</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">11</th>
+                      <td>Demons (Lapalux Remix)</td>
+                      <td>2:12</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">12</th>
+                      <td>Demons (Lunice Remix)</td>
+                      <td>4:20</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">13</th>
+                      <td>Window (Actress Remix)</td>
+                      <td>9:15</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">14</th>
+                      <td>Pills (HWLS Remix)</td>
+                      <td>3:22</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">15</th>
+                      <td>Bitter Fuck (salute remix)</td>
+                      <td>3:36</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">16</th>
+                      <td>I Don't Wanna Waste My Time (SwuM Remix)</td>
+                      <td>3:37</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" href="payment.html" onclick="goPayment();">Buy Album</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card shadow">
+      <img class="card-img-top" src="img/Swimming.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Swimming</h5>
+        <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#Swimming">
+          View Album
+        </button>
+        <div class="modal fade" id="Swimming" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <img src="img/Swimming.jpg" class="img-thumbnail">
+                <h5 class="modal-title" id="exampleModalLongTitle">Swimming</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <h6>Artist: Mac Miller</h6>
+                <table class="table table-dark">
+                  <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">TITLE</th>
+                      <th scope="col">TIME</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>Come Back to Earth</td>
+                      <td>2:42</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>Hurt Feelings</td>
+                      <td>4:06</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td>What's the Use?</td>
+                      <td>4:49</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">4</th>
+                      <td>Perfecto</td>
+                      <td>3:35</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">5</th>
+                      <td>Self Care</td>
+                      <td>5:45</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">6</th>
+                      <td>Wings</td>
+                      <td>4:10</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">7</th>
+                      <td>Ladders</td>
+                      <td>4:47</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">8</th>
+                      <td>Small Worlds</td>
+                      <td>4:32</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">9</th>
+                      <td>Conversation Pt.1</td>
+                      <td>3:30</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">10</th>
+                      <td>Dunno</td>
+                      <td>3:57</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">11</th>
+                      <td>Jet Fuel</td>
+                      <td>5:45</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">12</th>
+                      <td>2009</td>
+                      <td>5:48</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">13</th>
+                      <td>So It Goes</td>
+                      <td>5.13</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" href="payment.html" onclick="goPayment();">Buy Album</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+</body>
+</html>

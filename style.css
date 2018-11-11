@@ -1,0 +1,27 @@
+.jumbotron {
+  background-image: url(img/concert3.jpg);
+  background-size: cover;
+  width: cover;
+  height: 600px;
+}
+
+.card {
+  width: 18rem;
+}
+
+.card-deck {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.formContainer {
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+.headText {
+  margin-top: 100px;
+  margin-left: 20px;
+}
